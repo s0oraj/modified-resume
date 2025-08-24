@@ -4,7 +4,7 @@ export function Education() {
   return <div>
       <SectionTitle>Education</SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
-        <div className="bg-[#394556] p-3 rounded">
+        <div className="bg-card p-3 rounded">
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-gray-200 font-semibold">
@@ -20,7 +20,7 @@ export function Education() {
               </div>
             </div>
           </div>
-          <button className="mt-2 bg-gray-800 hover:bg-gray-700 rounded-full w-6 h-6 flex items-center justify-center">
+          <button className="mt-2 bg-gray-800 bg-btn-hover rounded-full w-6 h-6 flex items-center justify-center">
             <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M12 5v14M5 12h14"></path>
             </svg>

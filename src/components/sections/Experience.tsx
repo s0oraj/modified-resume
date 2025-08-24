@@ -15,7 +15,7 @@ export function Experience() {
     points: ['Developed Agent-Driver Android apps with Firebase Cloud Messaging for live order notifications', 'Designed and implemented REST API integration using Retrofit for authentication', 'Integrated multiple payment gateways with commission split architecture']
   }];
   return <div className="space-y-4">
-      {experiences.map((exp, index) => <div key={index} className="bg-[#394556] p-4 rounded">
+      {experiences.map((exp, index) => <div key={index} className="bg-card p-4 rounded">
           <div className="flex justify-between items-start mb-2">
             <h3 className="text-gray-200 font-semibold">{exp.company}</h3>
             <span className="text-[#FF9900] text-sm">{exp.period}</span>
@@ -34,17 +34,17 @@ export function Experience() {
               </li>)}
           </ul>
           <div className="flex mt-3 space-x-2">
-            <button className="bg-gray-800 hover:bg-gray-700 rounded-full w-8 h-8 flex items-center justify-center">
+            <button className="bg-gray-800 bg-btn-hover rounded-full w-8 h-8 flex items-center justify-center">
               <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M8 5v14l11-7z"></path>
               </svg>
             </button>
-            <button className="bg-gray-800 hover:bg-gray-700 rounded-full w-8 h-8 flex items-center justify-center">
+            <button className="bg-gray-800 bg-btn-hover rounded-full w-8 h-8 flex items-center justify-center">
               <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M12 5v14M5 12h14"></path>
               </svg>
             </button>
-            <button className="bg-gray-800 hover:bg-gray-700 rounded-full w-8 h-8 flex items-center justify-center">
+            <button className="bg-gray-800 bg-btn-hover rounded-full w-8 h-8 flex items-center justify-center">
               <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M9 21h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.58 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2zM9 9l4.34-4.34L12 10h9v2l-3 7H9V9zM1 9h4v12H1z"></path>
               </svg>

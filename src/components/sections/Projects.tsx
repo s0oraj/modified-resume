@@ -18,15 +18,15 @@ export function Projects() {
   return <div>
       <SectionTitle>Projects</SectionTitle>
       <div className="space-y-4 mt-3">
-        {projects.map((project, index) => <div key={index} className="bg-[#394556] p-4 rounded">
+        {projects.map((project, index) => <div key={index} className="bg-card p-4 rounded">
             <div className="flex justify-between items-start">
               <h3 className="text-gray-200 font-semibold">{project.title}</h3>
               <div className="flex gap-2">
-                <a href={project.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 px-2 py-1 rounded">
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 bg-btn-hover text-gray-300 px-2 py-1 rounded">
                   <ExternalLinkIcon size={10} className="mr-1 text-[#FF9900]" />
                   Demo
                 </a>
-                <a href={project.repo} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 px-2 py-1 rounded">
+                <a href={project.repo} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 bg-btn-hover text-gray-300 px-2 py-1 rounded">
                   <GithubIcon size={10} className="mr-1 text-[#FF9900]" />
                   Repo
                 </a>
@@ -42,12 +42,12 @@ export function Projects() {
                 </li>)}
             </ul>
             <div className="flex mt-3 space-x-2">
-              <button className="bg-gray-800 hover:bg-gray-700 rounded-full w-8 h-8 flex items-center justify-center">
+              <button className="bg-gray-800 bg-btn-hover rounded-full w-8 h-8 flex items-center justify-center">
                 <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M8 5v14l11-7z"></path>
                 </svg>
               </button>
-              <button className="bg-gray-800 hover:bg-gray-700 rounded-full w-8 h-8 flex items-center justify-center">
+              <button className="bg-gray-800 bg-btn-hover rounded-full w-8 h-8 flex items-center justify-center">
                 <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M12 5v14M5 12h14"></path>
                 </svg>

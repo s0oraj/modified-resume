@@ -4,7 +4,7 @@ import { ExternalLinkIcon } from 'lucide-react';
 export function Achievements() {
   return <div>
       <SectionTitle>Achievements</SectionTitle>
-      <div className="bg-[#394556] p-4 rounded mt-3">
+      <div className="bg-card p-4 rounded mt-3">
         <ul className="space-y-3">
           <li>
             <div className="flex justify-between items-start">
@@ -29,7 +29,7 @@ export function Achievements() {
               Ranked 228 globally out of 30,000+ teams
             </p>
             <div className="flex flex-wrap gap-1 mt-1">
-              <a href="https://www.kaggle.com/code/umitsahoo/nlp-with-regression/notebook" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 px-1.5 py-0.5 rounded">
+              <a href="https://www.kaggle.com/code/umitsahoo/nlp-with-regression/notebook" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 bg-btn-hover text-gray-300 px-1.5 py-0.5 rounded">
                 <ExternalLinkIcon size={8} className="mr-1 text-[#FF9900]" />
                 Code
               </a>

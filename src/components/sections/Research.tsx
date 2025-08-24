@@ -4,7 +4,7 @@ import { ExternalLinkIcon, GithubIcon } from 'lucide-react';
 export function Research() {
   return <div>
       <SectionTitle>Research - ML</SectionTitle>
-      <div className="bg-[#394556] p-4 rounded mt-3">
+      <div className="bg-card p-4 rounded mt-3">
         <div className="flex justify-between items-start mb-3">
           <div>
             <h3 className="text-gray-200 font-semibold text-sm">
@@ -21,7 +21,7 @@ export function Research() {
                 Early-Stage Glaucoma Detection
               </h3>
               <div className="flex gap-1">
-                <a href="https://github.com/s0oraj/Early_Stage_Glaucoma_Detection/tree/main" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 px-1.5 py-0.5 rounded">
+                <a href="https://github.com/s0oraj/Early_Stage_Glaucoma_Detection/tree/main" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 bg-btn-hover text-gray-300 px-1.5 py-0.5 rounded">
                   <GithubIcon size={8} className="mr-1 text-[#FF9900]" />
                   Repo
                 </a>
@@ -37,7 +37,7 @@ export function Research() {
                 Alzheimer's Disease Detection
               </h3>
               <div className="flex gap-1">
-                <a href="https://ieeexplore.ieee.org/document/10306481" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 px-1.5 py-0.5 rounded">
+                <a href="https://ieeexplore.ieee.org/document/10306481" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 bg-btn-hover text-gray-300 px-1.5 py-0.5 rounded">
                   <ExternalLinkIcon size={8} className="mr-1 text-[#FF9900]" />
                   Paper
                 </a>
