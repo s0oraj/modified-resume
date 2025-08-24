@@ -18,7 +18,7 @@ export function Resume() {
         </div>
         <div className="mb-8">
           <h2 className="text-xl font-bold text-gray-200 mb-2 flex items-center">
-            <span className="text-[#5DC22D] mr-2">
+            <span className="text-[#FF9900] mr-2">
               Explore titles related to:
             </span>{' '}
             Work Experience
