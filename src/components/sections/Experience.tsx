@@ -15,10 +15,10 @@ export function Experience() {
     points: ['Developed Agent-Driver Android apps with Firebase Cloud Messaging for live order notifications', 'Designed and implemented REST API integration using Retrofit for authentication', 'Integrated multiple payment gateways with commission split architecture']
   }];
   return <div className="space-y-4">
-      {experiences.map((exp, index) => <div key={index} className="bg-gray-900 p-4 rounded">
+      {experiences.map((exp, index) => <div key={index} className="bg-[#394556] p-4 rounded">
           <div className="flex justify-between items-start mb-2">
             <h3 className="text-gray-200 font-semibold">{exp.company}</h3>
-            <span className="text-[#5DC22D] text-sm">{exp.period}</span>
+            <span className="text-[#FF9900] text-sm">{exp.period}</span>
           </div>
           <div className="flex justify-between items-start mb-2">
             <p className="text-sm text-gray-300">{exp.position}</p>
@@ -29,7 +29,7 @@ export function Experience() {
           </div>
           <ul className="space-y-1 mt-2">
             {exp.points.map((point, idx) => <li key={idx} className="flex items-start text-xs text-gray-400">
-                <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
+                <span className="text-[#FF9900] mr-2 mt-0.5">•</span>
                 <span>{point}</span>
               </li>)}
           </ul>

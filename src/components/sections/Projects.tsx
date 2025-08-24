@@ -18,26 +18,26 @@ export function Projects() {
   return <div>
       <SectionTitle>Projects</SectionTitle>
       <div className="space-y-4 mt-3">
-        {projects.map((project, index) => <div key={index} className="bg-gray-900 p-4 rounded">
+        {projects.map((project, index) => <div key={index} className="bg-[#394556] p-4 rounded">
             <div className="flex justify-between items-start">
               <h3 className="text-gray-200 font-semibold">{project.title}</h3>
               <div className="flex gap-2">
                 <a href={project.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 px-2 py-1 rounded">
-                  <ExternalLinkIcon size={10} className="mr-1 text-[#5DC22D]" />
+                  <ExternalLinkIcon size={10} className="mr-1 text-[#FF9900]" />
                   Demo
                 </a>
                 <a href={project.repo} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 px-2 py-1 rounded">
-                  <GithubIcon size={10} className="mr-1 text-[#5DC22D]" />
+                  <GithubIcon size={10} className="mr-1 text-[#FF9900]" />
                   Repo
                 </a>
               </div>
             </div>
-            <div className="text-xs text-[#5DC22D] mt-1 mb-2">
+            <div className="text-xs text-[#FF9900] mt-1 mb-2">
               {project.technologies}
             </div>
             <ul className="space-y-1">
               {project.points.map((point, idx) => <li key={idx} className="flex items-start text-xs text-gray-400">
-                  <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
+                  <span className="text-[#FF9900] mr-2 mt-0.5">•</span>
                   <span>{point}</span>
                 </li>)}
             </ul>
