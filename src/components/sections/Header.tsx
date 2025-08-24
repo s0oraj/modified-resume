@@ -6,7 +6,7 @@ export function Header() {
         <div className="flex items-center">
           {/* Cohesity Logo */}
           <div className="mr-4">
-            <img src="/image.jpg" alt="Amazon Logo" className="h-10 mb-3" />
+            <img src="/image.jpg" alt="Logo" className="h-10 mb-3" />
           </div>
           <h1 className="text-3xl font-bold text-gray-100 uppercase tracking-wider">
             SURAJ SINGH

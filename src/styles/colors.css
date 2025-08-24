@@ -1,0 +1,44 @@
+:root {
+  /* Primary Colors */
+  --primary-color: #FF9900;
+  --primary-hover: #E47911;
+  
+  /* Background Colors */
+  --bg-main: #232F3E;
+  --bg-card: #394556;
+  --bg-button: #4A5568;
+  --bg-button-hover: #2D3748;
+  
+  /* Text Colors */
+  --text-primary: #FFFFFF;
+  --text-secondary: #A0AEC0;
+  --text-muted: #718096;
+  
+  /* Border Colors */
+  --border-color: #4A5568;
+}
+
+/* Custom Tailwind classes using CSS variables */
+.bg-main { background-color: var(--bg-main); }
+.bg-card { background-color: var(--bg-card); }
+.bg-btn { background-color: var(--bg-button); }
+.bg-btn-hover:hover { background-color: var(--bg-button-hover); }
+
+.text-primary-color { color: var(--primary-color); }
+.text-primary-hover:hover { color: var(--primary-hover); }
+
+.border-custom { border-color: var(--border-color); }
+
+/* For buttons and badges */
+.btn-primary { 
+  background-color: var(--primary-color); 
+  color: #000000;
+}
+.btn-primary:hover { 
+  background-color: var(--primary-hover); 
+}
+
+.badge-primary {
+  background-color: var(--primary-color);
+  color: #000000;
+}
