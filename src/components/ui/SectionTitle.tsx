@@ -8,6 +8,6 @@ export function SectionTitle({
   icon
 }: SectionTitleProps) {
   return <div className="border-b border-gray-800 pb-1 mb-3">
-      <h2 className="text-xl font-bold text-[#5DC22D]">{children}</h2>
+      <h2 className="text-xl font-bold text-[#FF9900]">{children}</h2>
     </div>;
 }
