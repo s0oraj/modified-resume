@@ -5,3 +5,10 @@
   --bg-main: #232F3E;
   --bg-card: #394556;
 }
+
+/* Simple approach - just update your components to use these Tailwind classes */
+.text-primary-color { color: var(--primary-color) !important; }
+.bg-primary { background-color: var(--primary-color) !important; }
+.hover\:bg-primary-hover:hover { background-color: var(--primary-hover) !important; }
+.bg-main { background-color: var(--bg-main) !important; }
+.bg-card { background-color: var(--bg-card) !important; }
